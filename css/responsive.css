@@ -1,0 +1,152 @@
+/* Mobile Design */
+@media (max-width: 786px) {
+    #website-info {
+      background-image: url("../images/bg-hero-mobile.svg");
+      width: 100vw;
+    }
+  
+    .logo-img {
+      width: 6rem;
+    }
+  
+    .btn {
+      width: 5rem;
+      padding: 8% 10%;
+    }
+  
+    .website-description {
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .big-heading {
+      width: 85%;
+      font-size: 1.4rem;
+      margin: 0 auto;
+      margin-bottom: 1rem;
+    }
+  
+    .website-text {
+      font-size: 0.8rem;
+      margin: 0 auto;
+    }
+  
+    .btn-header {
+      margin: 2rem auto;
+    }
+  
+    .banner-img {
+      width: 80%;
+    }
+
+    /* Features Section */
+
+    #features {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+
+    .order-m-1 {
+      order: 1;
+    }
+
+    .order-m-2 {
+      order: 2;
+    }
+
+    .feature-item {
+      flex-direction: column;
+      align-items: center;
+      padding: 2% 5%;
+    }
+
+    .feature-text-content {
+      margin: 2rem 0;
+      align-items: center;
+    }
+
+    .small-heading {
+      font-size: 1.4rem;
+    }
+
+    .feature-text {
+      font-size: 0.9rem;
+      text-align: center;
+      width: 90%;
+    }
+
+    .feature-banner {
+      display: flex;
+      justify-content: center;
+    }
+
+    /* Subcription Section */
+    .subs-text {
+      width: 28rem;
+      position: relative;
+    }
+
+    .subs-btn {
+      width: 16rem;
+    }
+
+    /* Footer */
+    .footer-item {
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 5rem 0 0;
+      min-height: 90vh;
+    }
+
+    .footer-website-name {
+      width: 10rem;
+    }
+
+    /* Contact Links */
+    .contact-info {
+      margin: 2rem 0 1rem;
+    }
+
+    .location {
+      width: 20rem;
+    }
+
+    .phone-number {
+      width: 10rem;
+    }
+
+    .email {
+      width: 20rem;
+    }
+
+    /* Footer navigation links */
+    .footer-nav {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .footer-nav-item {
+      margin: 3% 0 4%;
+
+    }
+
+    /* Social Media Links */
+    .social-media-links {
+      width: 80%;
+      justify-content: center;
+    }
+
+    .media-item {
+      margin: 0 auto;
+    }
+
+    /* Copywrite */
+    .copywrite {
+      font-size: 0.7rem;
+      position: relative;
+      top: 0.8rem;
+      margin: 0 auto;
+    }
+  
+  }
